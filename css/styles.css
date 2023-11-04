@@ -106,7 +106,7 @@ img {
 }
 
 .section-hero-button {
-    width: 289px;
+    min-width: 289px;
     height: 60px;
     font-size: 16px;
     font-weight: 500;
@@ -126,14 +126,13 @@ img {
     background-color: var(--color-background);
     border-radius: 5px;
     margin-bottom: 21px;
+    padding-top: 10px;
 }
 
 .section-skills-img {
-    width: 213px;
+    max-width: 213px;
     height: 213px;
     margin: 0 auto;
-    display: block;
-    margin-bottom: 10px;
 }
 
 .section-skills-title {
@@ -141,6 +140,7 @@ img {
     font-size: 18px;
     line-height: 4.44;
     padding-left: 13px;
+    padding-top: 10px;
 }
 
 .section-skills-txt {
@@ -155,5 +155,35 @@ img {
     font-weight: 500;
     margin-left: 13px;
     margin-bottom: 45px;
+    margin-top: 36px;
 }
 
+.writing {
+    padding-top: 16px;
+}
+
+.section-skills-img-writing {
+    max-width: 204px;
+    height: 204px;
+    margin: 0 auto;
+}
+
+.reading {
+    padding-top: 29px;
+}
+
+.section-skills-img-reading {
+    max-width: 236px;
+    height: 157px;
+    margin: 0 auto;
+}
+
+.listening {
+    padding-top: 33px;
+}
+
+.section-skills-img-listening {
+    max-width: 232px;
+    height: 154px;
+    margin: 0 auto;
+}
