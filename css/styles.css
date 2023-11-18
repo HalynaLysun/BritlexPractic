@@ -7,6 +7,7 @@
     --color-background: #F5F5F5;
     --color-shadow-button: #EEEEEE;
     --color-text-button: #546269;
+    --color-line: #C4C4C4;
 }
 
 body {
@@ -134,8 +135,8 @@ img {
 }
 
 .section-skills-img {
-    max-width: 213px;
-    height: 213px;
+    background-color: rgba(0, 0, 0, 0);
+    min-width: 213px;
     margin: 0 auto;
 }
 
@@ -166,30 +167,12 @@ img {
     padding-top: 16px;
 }
 
-.section-skills-img-writing {
-    max-width: 204px;
-    height: 204px;
-    margin: 0 auto;
-}
-
 .reading {
     padding-top: 29px;
 }
 
-.section-skills-img-reading {
-    max-width: 236px;
-    height: 157px;
-    margin: 0 auto;
-}
-
 .listening {
     padding-top: 33px;
-}
-
-.section-skills-img-listening {
-    max-width: 232px;
-    height: 154px;
-    margin: 0 auto;
 }
 
 .section-about-us {
@@ -278,6 +261,10 @@ img {
     margin-right: 8px;
 }
 
+.section-pricing-txt {
+    padding-top: 3px;
+}
+
 .section-contact {
     margin-top: 72px;
     margin-bottom: 55px;
@@ -318,4 +305,28 @@ img {
     display: block;
     margin: 0 auto;
     font-size: 14px;
+}
+
+.footer-line {
+    border: none;
+    background-color: var(--color-line);
+    color: var(--color-line);
+    height: 1px;
+    margin-bottom: 26px;
+}
+
+.footer-main-link {
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-list {
+    justify-content: center;
+}
+
+.footer-link{
+    color: var(--color-priority);
+    font-size: 11px;
+    font-weight: 500;
 }
