@@ -5,6 +5,8 @@
     --color-priority: #8F95A5;
     --color-button: #263238;
     --color-background: #F5F5F5;
+    --color-shadow-button: #EEEEEE;
+    --color-text-button: #546269;
 }
 
 body {
@@ -190,6 +192,10 @@ img {
     margin: 0 auto;
 }
 
+.section-about-us {
+    margin-bottom: 84px;
+}
+
 .section-about-us-title {
     color: var(--color-title);
     font-size: 24px;
@@ -225,3 +231,49 @@ img {
     margin-bottom: 29px;
 }
 
+.section-pricing-main-title {
+    color: var(--color-title);
+    font-size: 24px;
+    line-height: 3.33;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.section-pricing-title {
+    color: var(--color-button);
+    font-size: 18px;
+    line-height: 1.55;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 17px;
+}
+
+.section-pricing-text {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.section-pricing-button {
+    max-width: 170px;
+    width: 100%;
+    min-height: 37px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    background-color: var(--color-shadow-button);
+    color: var(--color-text-button);
+    border: none;
+    padding: 7px 12px 9px 12px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-pricing-button-price {
+    color: var(--color-button);
+    font-size: 18px;
+    margin-right: 8px;
+}
