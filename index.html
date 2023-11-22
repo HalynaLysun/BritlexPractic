@@ -10,7 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
     <header class="header container">
@@ -23,38 +25,52 @@
     </header>
     <main class="main">
         <section class="section-hero container">
-            <img class="section-hero-img" src="./images/languages-1x.jpg" alt="Languages" srcset="./images/languages-2x.jpg 2x" width="299">
-            <h1 class="section-hero-title">Learn Any <br>Foreign Language</br></h1>
-            <p class="section-hero-txt">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
-            <button type="button" class="section-hero-button btn">Get started</button>
+            <div class="section-hero-container">
+                <div class="section-hero-img-container">
+                    <img class="section-hero-img" src="./images/languages-1x.jpg" alt="Languages" srcset="./images/languages-2x.jpg 2x"
+                    width="299">
+                </div>
+                <div class="section-hero-title-container">          
+                    <h1 class="section-hero-title">Learn Any <br>Foreign Language</br></h1>
+                    <p class="section-hero-txt">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
+                    <button type="button" class="section-hero-button btn">Get started</button>
+                </div>
+            </div>
         </section>
 
         <section class="skills container">
             <h1 class="section-skills-main-title">Skills</h1>
-            <div class="section-skills-container">
-                <img class="section-skills-img" src="./images/goals-1x.png" alt="Goals" srcset="./images/goals-2x.png 2x" width="213">
-                <h2 class="section-skills-title">Speaking</h2>
-                <p class="section-skills-txt">Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for a limited time only <br><br>Learn English online and improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
-                <button type="button" class="section-skills-button btn">Learn more</button>
+            <div class="section-skills-main-container">
+                <div class="section-skills-container">
+                    <img class="section-skills-img" src="./images/goals-1x.png" alt="Goals" srcset="./images/goals-2x.png 2x" width="213">
+                    <h2 class="section-skills-title">Speaking</h2>
+                    <p class="section-skills-txt">Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for a limited time only <br><br>Learn English online and improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
+                    <button type="button" class="section-skills-button btn">Learn more</button>
+                </div>
+                <div class="skills-container"> 
+                    <div class="section-skills-container writing">
+                        <img class="section-skills-img" src="./images/typewriter-1x.png" alt="Writing" srcset="./images/tyypewriter-2x.png 2x" width="204">
+                        <h2 class="section-skills-title">Writing</h2>
+                        <p class="section-skills-txt">One of the most important and extensive areas of natural science, the science that studies substances, also their composition</p>
+                        <button type="button" class="section-skills-button btn">Learn more</button>
+                    </div>
+                    <div class="section-skills-container reading">
+                        <img class="section-skills-img" src="./images/bookshelves-1x.png" alt="Reading" srcset="./images/bookshelves-2x.png 2x" width="236">
+                        <h2 class="section-skills-title">Reading</h2>
+                        <p class="section-skills-txt">perception and response actions of the user resulting from the use and or up coming use of the product, system or service</p>
+                        <button type="button" class="section-skills-button btn">Learn more</button>
+                    </div>
+                    <div class="section-skills-container listening">
+                        <img class="section-skills-img" src="./images/podcast-1x.png" alt="Listening" srcset="./images/podcast-2x.png 2x"
+                            width="232">
+                        <h2 class="section-skills-title">Listening</h2>
+                        <p class="section-skills-txt">Here you can find activities to practise your listening skills. Listening will help
+                            you to improve your understanding</p>
+                        <button type="button" class="section-skills-button btn">Learn more</button>
+                    </div>
+               </div>                  
             </div>
-            <div class="section-skills-container writing">
-                <img class="section-skills-img" src="./images/typewriter-1x.png" alt="Writing" srcset="./images/tyypewriter-2x.png 2x" width="204">
-                <h2 class="section-skills-title">Writing</h2>
-                <p class="section-skills-txt">One of the most important and extensive areas of natural science, the science that studies substances, also their composition</p>
-                <button type="button" class="section-skills-button btn">Learn more</button>
-            </div>
-            <div class="section-skills-container reading">
-                <img class="section-skills-img" src="./images/bookshelves-1x.png" alt="Reading" srcset="./images/bookshelves-2x.png 2x" width="236">
-                <h2 class="section-skills-title">Reading</h2>
-                <p class="section-skills-txt">perception and response actions of the user resulting from the use and or up coming use of the product, system or service</p>
-                <button type="button" class="section-skills-button btn">Learn more</button>
-            </div>
-            <div class="section-skills-container listening">
-                <img class="section-skills-img" src="./images/podcast-1x.png" alt="Listening" srcset="./images/podcast-2x.png 2x" width="232">
-                <h2 class="section-skills-title">Listening</h2>
-                <p class="section-skills-txt">Here you can find activities to practise your listening skills. Listening will help you to improve your understanding</p>
-                <button type="button" class="section-skills-button btn">Learn more</button>
-            </div>
+            
         </section>
 
         <section class="section-about-us container">

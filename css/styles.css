@@ -57,6 +57,13 @@ img {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    max-width: 316px;
+    width: 100%;
+    padding: 30px 15px 30px 15px;
+    margin: 0 auto;
+}
+
 .header {
     padding-top: 36px;
     margin-bottom: 29px;
@@ -80,11 +87,8 @@ img {
     height: 19px;
 }
 
-.section-hero {
-    margin-bottom: 59px;
-}
-
 .section-hero-title {
+    font-weight: 600;
     font-size: 24px;
     line-height: 1.5;
     text-align: center;
@@ -109,10 +113,6 @@ img {
     display: block;
 }
 
-.skills {
-    margin-bottom: 50px;
-}
-
 .section-skills-main-title {
     color: var(--color-title);
     font-size: 24px;
@@ -125,7 +125,6 @@ img {
     background-color: var(--color-background);
     border-radius: 5px;
     margin-bottom: 21px;
-    padding-top: 10px;
 }
 
 .section-skills-img {
@@ -169,10 +168,6 @@ img {
     padding-top: 33px;
 }
 
-.section-about-us {
-    margin-bottom: 84px;
-}
-
 .section-about-us-title {
     color: var(--color-title);
     font-size: 24px;
@@ -205,7 +200,6 @@ img {
 .section-about-us-txt {
     font-size: 15px;
     text-align: center;
-    margin-bottom: 29px;
 }
 
 .section-pricing-main-title {
@@ -257,11 +251,6 @@ img {
 
 .section-pricing-txt {
     padding-top: 3px;
-}
-
-.section-contact {
-    margin-top: 72px;
-    margin-bottom: 55px;
 }
 
 .section-contact-title {
