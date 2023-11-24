@@ -160,8 +160,8 @@
             transform: translateY(2%);
         }
 
-        
         .section-about-us-title {
+            width: 100%;
             font-size: 30px;
             line-height: 2.67;
             text-align: left;
@@ -171,7 +171,7 @@
         .section-about-us-text {
             text-align: left;
             font-size: 14px;
-            max-width: 231px;
+            max-width: 321px;
             margin-bottom: 29px;
         }
         
@@ -188,6 +188,10 @@
         .section-about-us-txt {
             font-size: 15px;
             text-align: center;
+        }
+
+        .section-about-us-container {
+            display: flex;
         }
     }
 }
