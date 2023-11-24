@@ -157,7 +157,7 @@
             top: 0;
             right: 0;    
             margin-bottom: 0px;
-            transform: translateY(2%);
+            transform: translateY(12%);
         }
 
         .section-about-us-title {
@@ -170,28 +170,87 @@
         
         .section-about-us-text {
             text-align: left;
-            font-size: 14px;
+            font-size: 13px;
             max-width: 321px;
-            margin-bottom: 29px;
+            margin-bottom: 0px;
         }
         
         .section-about-us-number {
-            margin-top: 8px;
-            color: var(--color-title);
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 3.33;
-            margin-bottom: -20px;
-            text-align: center;
+            margin-top: 0px;
+            font-size: 22px;
+            line-height: 3.64;
+            margin-bottom: 0px;
         }
         
         .section-about-us-txt {
-            font-size: 15px;
-            text-align: center;
+            font-size: 13px;
         }
 
-        .section-about-us-container {
+        .about-us-list {
             display: flex;
+            gap: 50px;
+            padding-left: 8px;
+        }
+
+        .section-pricing-main-title {
+            font-size: 30px;
+            line-height: 2.67;
+            text-align: center;
+            margin-bottom: 31px;
+        }
+
+        .pricing-list {
+            display: flex;
+            gap: 34px;
+        }
+
+        .pricing-item {
+            width: calc((100% - 2*34px)/3);
+        }
+
+        .section-pricing-img {
+            max-height: 197px;
+        }
+
+        .pricing-img {
+            margin-top: 36px;
+        }
+
+        .section-pricing-title {
+            font-size: 20px;
+            line-height: 1.4;
+            text-align: left;
+            margin-top: 23px;
+            margin-bottom: 15px;
+        }
+
+        .pricing-title {
+            max-width: 112px;
+        }
+
+        .section-pricing-text {
+            font-size: 14px;
+            text-align: left;
+            margin-bottom: 23px;
+        }
+
+        .section-pricing-button {
+            max-width: 205px;
+            width: 100%;
+            min-height: 45px;
+            margin: 0 0;
+            padding: 10px 23px 11px 12px;
+            font-family: Poppins, sans-serif;
+            font-size: 16px;
+        }
+
+        .section-pricing-button-price {
+            font-size: 22px;
+            margin-right: 12px;
+        }
+
+        .pricing-button {
+            margin-top: 43px;
         }
     }
 }

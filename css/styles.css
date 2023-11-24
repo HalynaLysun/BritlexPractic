@@ -191,6 +191,10 @@ img {
     margin-bottom: 29px;
 }
 
+.about-us-list {
+    list-style: none;
+}
+
 .section-about-us-number {
     margin-top: 8px;
     color: var(--color-title);
@@ -209,6 +213,7 @@ img {
 .section-pricing-main-title {
     color: var(--color-title);
     font-size: 24px;
+    font-weight: 600;
     line-height: 3.33;
     text-align: center;
     margin-bottom: 49px;
@@ -217,10 +222,19 @@ img {
 .section-pricing-title {
     color: var(--color-button);
     font-size: 18px;
+    font-weight: 600;
     line-height: 1.55;
     text-align: center;
     margin-top: 28px;
     margin-bottom: 17px;
+}
+
+.pricing-list {
+    list-style: none;
+}
+
+.pricing-item:not(:last-child) {
+    margin-bottom: 63px;
 }
 
 .section-pricing-text {
