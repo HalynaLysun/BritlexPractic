@@ -123,11 +123,19 @@ img {
     margin-bottom: 32px;
 }
 
-.section-skills-container {
+.skills-list {
+    list-style: none;
+}
+
+.skills-item {
     background-color: var(--color-background);
     border-radius: 5px;
     margin-bottom: 21px;
     padding-top: 8px;
+}
+
+.skills-item:last-child {
+    margin-bottom: 0px;
 }
 
 .section-skills-img {
@@ -288,7 +296,8 @@ img {
 
 .section-contact-input {
     width: 100%;
-    max-width: 265px;
+    max-width: 290px;
+    height: 50px;
     display: block;
     margin: 0 auto;
     color: var(--color-priority);

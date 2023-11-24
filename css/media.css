@@ -52,15 +52,16 @@
             display: inline-block;
         }
 
-        .section-skills-main-container {
+        .skills-list {
             display: flex;
-            column-gap: 10px;
+            gap: 8px;
+            flex-wrap: wrap;
+            position: relative;
         }
 
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
+        .speaking {
+            max-width: 224px;
+            padding-top: 31px;
         }
 
         .section-skills-main-title {
@@ -77,21 +78,35 @@
             padding-left: 17px;
         }
 
-        .skills-add-container {
-            display: flex;
-            column-gap: 10px;
-        }
-
         .section-skills-container {
             padding-top: 31px;
             margin-bottom: 0;
-        }     
+        }
+        
+        .skills-item {
+            margin-bottom: 0;
+        }
+
+        .speaking>.btn {
+            margin-bottom: 37px;
+        }
+
+        .skills-item .listening {
+            display: flex;
+        }
 
         .listening {
             max-height: 210px;
             display: flex;
             flex-direction: row-reverse;
-            padding-top: 0;            
+            padding-top: 0;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: var(--color-background);
+            border-radius: 5px;
+            max-width: 461px;
+            transform: translateX(-2px);
         }    
 
         .section-skills-button {
@@ -105,10 +120,13 @@
         .writing {
             padding-top: 14px;
             max-width: 226px;
+            max-height: 442px;
         }
 
         .reading {
+            max-width: 227px;
             padding-top: 34px;
+            max-height: 442px;
         }
 
         .section-skills-txt {
