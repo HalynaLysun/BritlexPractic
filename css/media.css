@@ -220,10 +220,15 @@
         .pricing-list {
             display: flex;
             gap: 34px;
+            max-height: 456px;
         }
 
         .pricing-item {
             width: calc((100% - 2*34px)/3);
+        }
+
+        .pricing-item:not(:last-child) {
+            margin-bottom: 0px;
         }
 
         .section-pricing-img {
@@ -269,6 +274,57 @@
 
         .pricing-button {
             margin-top: 43px;
+        }
+
+        .contact-img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: translate(14%, -37%);
+            max-width: 233px;
+        }
+
+        .section-contact {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .section-contact-title {
+            text-align: left;
+            font-size: 30px;
+            line-height: 2.67;
+            margin-bottom: 0;
+            margin-left: 250px;
+        }
+
+        .section-contact-txt {
+            text-align: left;
+            margin-bottom: 26px;
+            margin-left: 250px;
+        }
+
+        .section-contact-input {
+            max-width: 283px;
+            margin-left: 250px;
+            margin-bottom: 81px;
+        }
+
+        .section-contact-button {
+            max-width: 145px;
+            min-height: 0px;
+            max-height: 50px;
+            margin: 0 0;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-line {
+            margin-bottom: 18px;
         }
     }
 }

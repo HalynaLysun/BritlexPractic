@@ -284,6 +284,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     font-size: 24px;
+    font-weight: 600;
     line-height: 3.33;
     margin-bottom: 38px;
 }
@@ -317,6 +318,7 @@ img {
     display: block;
     margin: 0 auto;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .footer-line {
