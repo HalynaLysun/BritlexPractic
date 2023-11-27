@@ -78,6 +78,10 @@
             padding-left: 17px;
         }
 
+        .speaking>.section-skills-title {
+            margin-top: 2px;
+        }
+
         .section-skills-container {
             padding-top: 31px;
             margin-bottom: 0;
@@ -96,7 +100,7 @@
         }
 
         .listening {
-            max-height: 210px;
+            min-height: 210px;
             display: flex;
             flex-direction: row-reverse;
             padding-top: 0;
@@ -106,8 +110,13 @@
             background-color: var(--color-background);
             border-radius: 5px;
             max-width: 461px;
-            transform: translateX(-2px);
-        }    
+            transform: translate(-2px, -2px);
+        }
+        
+        .skills-container-listening-title>.section-skills-title {
+            line-height: 3;
+            padding-top: 8px;
+        }
 
         .section-skills-button {
             padding: 14px 42px;
@@ -118,15 +127,14 @@
         }
 
         .writing {
-            padding-top: 14px;
             max-width: 226px;
-            max-height: 442px;
+            max-height: 441px;
         }
 
         .reading {
             max-width: 227px;
             padding-top: 34px;
-            max-height: 442px;
+            max-height: 441px;
         }
 
         .section-skills-txt {
@@ -134,17 +142,30 @@
             padding: 0 16px;
         }
 
-        .add {
+        .writing>.section-skills-title {
             margin-top: -28px;
+            line-height: 3;
         }
 
-        .writ {
+        .writing>.section-skills-img {
             max-width: 200px;
         }
 
+        .writing>.btn {
+            margin-top: 11px;
+        }
+
+        .reading>.btn {
+            margin-top: 13px;
+        }
+
+        .reading>.section-skills-title {
+            line-height: 3;
+        }
+
         .listen {
-            margin-top: -8px;
-            margin-bottom: 6px;
+            margin-top: -6px;
+            margin-bottom: 10px;
             padding-right: 0;
             min-width: 228px;
         }
@@ -155,7 +176,8 @@
 
         .podcast {
             padding-top: 59px;
-            min-width: 180px;
+            min-width: 196px;
+            padding-bottom: 17px;
         }
 
         .button-listening {
