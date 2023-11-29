@@ -52,6 +52,8 @@
             display: inline-block;
         }
 
+/**SKILLS**/
+
         .skills-list {
             display: flex;
             gap: 8px;
@@ -176,6 +178,8 @@
             margin-left: 13px;
         }
 
+/**ABOUT US**/
+
         .about-us-container {
             position: relative;
             display: flex;
@@ -223,10 +227,11 @@
             padding-left: 8px;
         }
 
+/**PRICING**/
+
         .section-pricing-main-title {
             font-size: 30px;
             line-height: 2.67;
-            text-align: center;
             margin-bottom: 31px;
         }
 
@@ -272,11 +277,9 @@
 
         .section-pricing-button {
             max-width: 205px;
-            width: 100%;
             min-height: 45px;
             margin: 0 0;
             padding: 10px 23px 11px 12px;
-            font-family: Poppins, sans-serif;
             font-size: 16px;
         }
 
@@ -288,6 +291,8 @@
         .pricing-button {
             margin-top: 43px;
         }
+
+/**CONTACT**/
 
         .contact-img {
             position: absolute;
@@ -396,6 +401,8 @@
             min-width: 312px;
             margin-left: 121px;
         }
+
+/**HERO**/
 
         .section-hero-container {
             gap: 144px;
@@ -543,6 +550,103 @@
         .button-listening {
             margin-top: 30px;
             margin-left: 0;
+        }
+
+/**ABOUT US**/
+
+        .section-about-us-img {
+            max-width: 540px;
+            transform: translateY(0);
+        }
+
+        .section-about-us-title {
+            width: 100%;
+            font-size: 48px;
+            line-height: normal;
+            margin-bottom: 60px;
+        }
+
+        .section-about-us-text {
+            font-size: 20px;
+            line-height: 1.8;
+            max-width: 652px;
+            margin-bottom: 30px;
+        }
+
+        .section-about-us-number {
+            font-size: 48px;
+            line-height: normal;
+        }
+
+        .section-about-us-txt {
+            font-size: 20px;
+        }
+
+        .txt {
+            max-width: 108px;
+            text-align: center;
+        }
+
+        .about-us-list {
+            gap: 136px;
+            padding-left: 36px;
+        }
+
+/**PRICING**/
+
+        .section-pricing-main-title {
+            font-size: 48px;
+            line-height: normal;
+            margin-bottom: 60px;
+        }
+            
+        .pricing-list {
+            gap: 30px;
+            max-height: 640px;
+        }
+            
+        .pricing-item {
+            width: calc((100% - 2*30px)/3);
+        }
+            
+        .section-pricing-img {
+            min-height: 320px;
+        }
+            
+        .pricing-img {
+            margin-top: 0;
+        }
+
+        .section-pricing-title {
+            font-size: 30px;
+            line-height: 1.6;
+            text-transform: capitalize;
+            margin-top: 31px;
+            margin-bottom: 20px;
+        }
+
+        .pricing-title {
+            max-width: 383px;
+        }
+
+        .section-pricing-text {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section-pricing-button {
+            max-width: 260px;
+            padding: 11px 23px 7px 23px;
+            font-size: 18px;
+        }
+
+        .section-pricing-button-price {
+            font-size: 24px;
+            margin-right: 21px;
+        }
+
+        .pricing-button {
+            margin-top: 60px;
         }
 
     }
