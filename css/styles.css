@@ -150,6 +150,7 @@ img {
 }
 
 .section-skills-img {
+    max-width: 213px;
     margin: 0 auto;
 }
 
@@ -179,15 +180,27 @@ img {
 }
 
 .writing {
-    padding-top: 16px;
+    padding-top: 26px;
+}
+
+.writing .section-skills-img {
+    max-width: 248px;
 }
 
 .reading {
     padding-top: 29px;
 }
 
+.reading .section-skills-img {
+    max-width: 236px;
+}
+
 .listening {
     padding-top: 33px;
+}
+
+.listening .section-skills-img {
+    max-width: 232px;
 }
 
 .section-about-us-title {
@@ -254,6 +267,11 @@ img {
 
 .pricing-item:not(:last-child) {
     margin-bottom: 63px;
+}
+
+.section-pricing-img {
+    max-width: 248px;
+    margin: 0 auto;
 }
 
 .section-pricing-text {
@@ -352,6 +370,9 @@ img {
 
 .footer-link{
     color: var(--color-priority);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    line-height: normal;
     font-size: 11px;
     font-weight: 500;
     margin-right: 1px;
