@@ -377,3 +377,22 @@ img {
     font-weight: 500;
     margin-right: 1px;
 }
+
+.header-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-icon {
+    display: inline-flex;
+}
+
+.header-menu-btn {
+    max-width: 17px;
+    max-height: 17px;
+}
+
+.header-menu-list {
+    display: block;
+}
