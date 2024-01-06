@@ -380,12 +380,18 @@ img {
 .header-menu-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
+}
+
+.logo-link {
+    line-height: normal;
 }
 
 .header-menu-btn {
-    max-width: 17px;
-    max-height: 17px;
+    max-width: 34px;
+    max-height: 34px;
+    border: none;
+    background-color: var(--color-fading);
 }
 
 .header-menu-list {
