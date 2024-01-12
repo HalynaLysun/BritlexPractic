@@ -29,11 +29,12 @@
         <button class="header-button btn" type="button">Let’s Talk</button>
         <button class="header-button-open" type="button" data-menu-open>
             <svg class="header-svg">
-            <use  href="./images/icons.svg#icon-burger-menu"></use>
+            <use class="header-icon" href="./images/icons.svg#icon-burger-menu"></use>
             </svg>
         </button>
         
-            <div class="header-menu container is-hidden" data-menu>
+        <div class="backdrop is-hidden" data-menu>    
+        <div class="header-menu container">
                 <div class="header-menu-container">
                     <a class="header-link logo-link link" href="./index.html">Brit<span class="header-span">lex</span></a>
                     <button class="header-menu-btn" type="button" data-menu-close>
@@ -52,6 +53,7 @@
                 </ul>
                 <button class="header-menu-button btn" type="button">Let’s Talk</button>
             </div>
+        </div>
 
     </header>
 
@@ -154,7 +156,7 @@
             <h1 class="section-contact-title"><a name="contact"></a>contact us</h1>
             <img class="contact-img" src="./images/resourse-1x.jpg" alt="resourse" srcset="./images/resourse-2x.jpg 2x" width="253">
             <p class="section-contact-txt">Discover your current English level by taking our free online English test. Sign up to our newsletter for learning tips and free resource</p>
-            <form><input class="section-contact-input" type="email" placeholder="enter your e-mail" required name="user_email"></form>
+            <form><input class="section-contact-input" type="email" placeholder="Enter Your E-mail" required name="user_email"></form>
             <button class="section-contact-button btn" type="button">Subscribe</button>
         </section>    
     </main>
