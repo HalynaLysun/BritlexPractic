@@ -34,8 +34,6 @@ GitHub Pages – For project hosting.
 💡 Key Features
 Simple & Clean: Pure code written entirely in plain HTML and CSS without any third-party libraries or frameworks.
 
-Smooth Navigation: Integrated scroll-behavior: smooth for elegant transitions between sections via anchor links.
-
 [!NOTE]
 
 Project Status: This is a static frontend-only practice project. Buttons and forms are currently non-functional, and there is no JavaScript/Backend logic implemented (e.g., the mobile menu toggle is visual), as the primary focus was on layout and styling.
